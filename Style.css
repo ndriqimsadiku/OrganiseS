@@ -1,0 +1,224 @@
+@font-face{
+	font-family: myFont;
+}
+
+#nav{
+	background-color: rgba(225, 35, 50,0.9);	
+	box-shadow: 7px 5px 30px rgba(0,0,0,0.4);
+	text-align: center;
+
+}
+
+#nav a{
+
+	font-family: Tahoma;
+	text-decoration: none;
+    color: white;
+    font-size: 20px;
+    display:inline-block;
+    padding: 15px;
+    width: 180px;
+    
+
+}
+#nav ul {
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+
+#nav>ul>li{
+	list-style: none;
+	display: inline-block;
+
+}
+
+
+#nav>ul>:hover{
+	cursor:pointer; 
+	background: linear-gradient(rgba(225, 35, 50,0.9)  , rgba(255,255,255,0.9) );
+	
+}
+#nav>ul>a:hover{
+	
+	color:#dddddd;
+}
+ 
+.grid-container{
+	  display: grid;
+	  grid-gap: 10px;
+	  grid-template-columns: 100px 100px 100px;	 
+	  padding: 10px;
+}
+.grid-container {
+  
+  text-align: center;
+  padding: 20px 0;
+
+}
+.leftContainer{
+	grid-column:1/3;
+	grid-row: 1/50;
+	background: linear-gradient(0deg,#f9f4ed,white);
+	box-shadow: 7px 5px 30px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	
+	
+}
+
+.rightContainer{
+	grid-column:47/60;
+	grid-row: 1/50;
+	background: linear-gradient(0deg,#f9f4ed,white);
+	box-shadow: -7px 5px 30px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	
+	
+}
+
+.footerContainer{	
+ 	grid-column: 1/60;
+ 	grid-row: 51/56;
+ 	background: linear-gradient(0deg,#f9f4ed,white);
+	box-shadow: 7px 5px 30px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	text-align: center;
+	font-size: 12pt;
+	color: gray;
+}
+
+.centerContainer{
+	margin-left:10px;
+	margin-right: 10px; 
+	grid-column: 3/47;
+ 	grid-row: 1/50;
+ 	box-shadow: 7px 5px 50px rgba(0,0,0,0.1);
+ 
+
+ 	background: linear-gradient(0deg,#f9f4ed,white);
+	
+	border-radius: 10px;
+	text-align: center;
+	font-size: 12pt;
+	color: gray;
+
+
+}
+
+
+/*Contact style*/
+
+.wrapperContact
+{
+	margin: 3% 3% 3% 3%;
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: 100px 100px 100px;
+	height: 350px;
+}
+.boxContact
+{
+	border-radius: 7px;
+	background-color: #ffffff;
+	color: #fff;
+	background: linear-gradient(0deg,#f9f4ed,white);
+	box-shadow: 7px 5px 30px rgba(0,0,0,0.3);
+	border-radius: 10px;
+
+}
+
+
+.B1
+{
+	color: #d70026;
+	font-size: 1.5em;
+	text-align: center;
+	grid-column: 2/40;
+	grid-row: 3/40;
+	margin-bottom: 20px;
+}
+.B2
+{
+	color: #d70026;
+	font-size: 1.5em;
+	margin-top: 20px;
+	text-align: center;
+	grid-column: 2/40;
+	grid-row: 40/41;
+}
+
+#forma-Email{
+	width: 90%;
+	height: auto;
+	background:#ffffff;
+	font-color: #fff;
+	margin-bottom: 0;
+	margin-top: auto;
+	padding: 5px 5px 10px 5px;
+}
+
+#forma-Email input {
+	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+	font-family: ourFonts, sans-serif;
+	outline: 0;
+	float:left;
+	background: #f2f2f2;
+	width: 100%;
+	border: 0;
+	margin: 0 0 5px 50px;
+	padding: 10px;
+	font-size: 14px;
+}
+#forma-Email textarea{
+	resize: none;
+	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+	font-family: ourFonts, sans-serif;
+	outline: 0;
+	background: #f2f2f2;
+	width: 100%;
+	height: 99px;
+	border: 0;
+	margin: 0 0 5px 0;
+	padding: 10px;
+	font-size: 14px;
+}
+#forma-Email button{
+	font-family: ourFonts, sans-serif;
+	text-transform: uppercase;
+	background-color: rgba(225, 35, 50,1);
+	width: 95%;
+	border: 0;
+	padding: 15px;
+	color: #FFFFFF;
+	font-size: 14px;
+	cursor: pointer;
+	border-radius: 5px;
+	margin-right: 40px;	
+	margin-left: 50px;
+	box-shadow: 0 0 20px 0 rgba(255, 0, 0, 0.2), 0 5px 5px 0 rgba(255, 0, 0, 0.24);
+}
+#forma-Email button:hover{
+	background: #ef5350;
+	font-style: ourFonts, sans-serif;
+}
+.gjysmaMajt{
+	  float: left;
+	  width: 45%;
+	  margin-bottom: 1em;
+
+}
+.gjysmaDjatht{
+	  float: right;
+	  width: 40%;
+	  margin-bottom: 1em;
+}
+#CallPhoneLogo{
+	width:150px;
+	height: 150px;
+}
+#CallPhoneLogo:hover{
+	opacity:0.75;
+}
+
+
+/* Contact perfundimi */
